@@ -964,12 +964,39 @@ a:focus {
 }
 
 .footer_section p a {
-
-
-  <footer class="tayyab-signature">
-  <div class="signature-line"></div>
-  <p>Crafted with excellence by <a href="#">Tayyab Mushtaq</a></p>
-</footer>
   color: inherit;
+}
+
+.tayyab-signature {
+  text-align: center;
+  padding: 35px 20px;
+  background: #0d0d0d;
+  color: #b8b8b8;
+  font-family: 'Poppins', sans-serif;
+}
+
+.signature-line {
+  width: 100px;
+  height: 1px;
+  margin: 0 auto 18px;
+  background: linear-gradient(to right, transparent, #d4af37, transparent);
+}
+
+.tayyab-signature p {
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.tayyab-signature a {
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tayyab-signature a:hover {
+  color: #ffffff;
+  letter-spacing: 4px;
 }
 /*# sourceMappingURL=style.css.map */

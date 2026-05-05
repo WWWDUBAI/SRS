@@ -964,6 +964,12 @@ a:focus {
 }
 
 .footer_section p a {
+
+
+  <footer class="tayyab-signature">
+  <div class="signature-line"></div>
+  <p>Crafted with excellence by <a href="#">Tayyab Mushtaq</a></p>
+</footer>
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
